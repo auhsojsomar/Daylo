@@ -1,0 +1,35 @@
+
+li ul li a{
+	display: none;
+}
+
+ul li {
+	display: block;
+}
+
+img{
+	width: 400px;
+	height: 400px;
+.navbar .navbar-nav li.dropdown:hover a,
+.navbar .navbar-nav li.dropdown:hover a:hover,
+.navbar .navbar-nav li.dropdown:hover a:focus {
+	background-color: rgb (231,222,111);
+	color: rgb(85,85,85);
+	border-radius: 5px;
+
+}
+
+li.dropdown:hover > .dropdown-menu {
+	display: block;
+	border-radius: 5px;
+}
+
+.navbar li a:hover{
+	background-color: #24292e;
+	border-radius: 5px;
+}
+
+.navbar .navbar-nav li:hover {
+	color: #333;
+	border-radius: 5px;
+}

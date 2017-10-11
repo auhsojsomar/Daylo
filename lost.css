@@ -1,0 +1,30 @@
+#content{
+			width: 50%;
+			border: 2px solid #000;
+			float: right;
+		}
+		form{
+			width: 50%;
+			margin: 20px auto;
+			margin-top: 50px;
+		}
+		form div{
+			margin-top: 50px;
+		}
+		#img_div{
+			width: 80%;
+			padding: 5px;
+			margin: 15px auto;
+			border: 2px solid #000;
+		}
+		#img_div:after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		img{
+			float: left;
+			margin: 5px;
+			width: 300px;
+			height: 140px;
+		}
